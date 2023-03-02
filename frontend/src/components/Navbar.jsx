@@ -3,28 +3,29 @@ import React from 'react'
 const Navbar = () => {
 
     return (
-    <nav className='flex min-h-screen flex-col text-white'>
+    <nav className='relative container mx-auto p-6 bg-yellow-400'>
+        <div className="flex items-center justify-between">
 
-        <div className='flex'>
-            <img src="" alt="" />
-            <p>portfolio</p>
-        </div>
-        <div className="flex">
-            {/* <ul className='flex'>
-                <li>lorem</li>
-                <li>ipsum</li>
-                <li>dolor</li>
-                <li>sitzum</li>
-            </ul> */}
+            <div className='pt-0'>
+                {/* <img src="" alt="" /> */}
+                <p>portfolio</p>
+            </div>
+            <div className="hidden md:flex space-x-6 ">
+                <a href="#">about</a>
+                <a href="#">contact</a>
+                <a href="#">menu</a>
+                <a href="#">portfolio</a>
+            </div>
+
+            <div className='flex'>
+                {/* <ul>
+                    <li>Github</li>
+                    <li>LinkedIn</li>
+                    <li>Twitter</li>
+                </ul> */}
+            </div>
         </div>
 
-        <div className='flex'>
-            {/* <ul>
-                <li>Github</li>
-                <li>LinkedIn</li>
-                <li>Twitter</li>
-            </ul> */}
-        </div>
     </nav>
     )
 }
