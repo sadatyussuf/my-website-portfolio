@@ -1,6 +1,6 @@
+import { FaGithub, FaTwitter, FaLinkedinIn } from 'react-icons/fa'
 
-
-export const links = [
+export const pages = [
     // {
     //     "id": 1,
     //     "name": "resume",
@@ -33,17 +33,17 @@ export const socials = [
     {
         "id": 1,
         "url": "https://github.com/sadatyussuf",
-        // "icon": <FaFacebook />
+        "icon": <FaGithub />,
     },
     {
         "id": 2,
         "url": "https://twitter.com/yussufSadat",
-        // "icon": <FaTwitter />
+        "icon": <FaTwitter />,
     },
     {
         "id": 3,
         "url": "https://www.linkedin.com/in/anwur-sadat-yussuf-issah-aa48b11b2/",
-        // "icon": <FaLinkedin />
+        "icon": <FaLinkedinIn />
     },
 
 ]
