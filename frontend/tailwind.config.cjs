@@ -16,6 +16,9 @@ module.exports = {
         lightGrey: '#C5C6C7',
         lightBlue: '#66FCF1',
         greyishBlue: '#45A29E'
+      },
+      fontFamily: {
+        Rampart: ["Rampart One", "cursive"],
       }
     },
   },
