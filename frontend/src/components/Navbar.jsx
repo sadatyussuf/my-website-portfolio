@@ -4,8 +4,8 @@ import {pages,socials} from '../helpers/links'
 const Navbar = () => {
 
     return (
-    <nav className='relative container mx-auto p-6 bg-yellow-400'>
-        <div className="flex items-center justify-between">
+    <nav className='relative container mx-auto p-6 h-[10vh]'>
+        <div className="flex items-center justify-between ">
 
             <div className='pt-0'>
                 {/* <img src="" alt="" /> */}
