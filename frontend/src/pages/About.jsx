@@ -6,7 +6,9 @@ const  About = () => {
    
     <main className='h-screen'>
         <Navbar/>
-        <Header/>
+        <Header name="Sarah"/>
+          
+        {/* </Header> */}
     </main>
   )
 }
